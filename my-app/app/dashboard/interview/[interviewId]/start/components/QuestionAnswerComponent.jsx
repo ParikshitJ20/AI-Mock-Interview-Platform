@@ -29,7 +29,7 @@ function QuestionAnswerComponent({ questions}) {
  
   const {user}=useUser();
 
-const genAI = new GoogleGenerativeAI("AIzaSyBWVJ3tvnN_oK_szLyH8Dsj6cB15MTP4PY");
+const genAI = new GoogleGenerativeAI("********************");
 const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
 
 const notify = () => toast("Answer Saved Successfully. You can move to the next Question!");
